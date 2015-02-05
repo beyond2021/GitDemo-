@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		22DE5FD71A83032F00742DF5 /* TestClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 22DE5FD61A83032F00742DF5 /* TestClass.m */; };
 		22E704061A82B16E00C1D962 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 22E704051A82B16E00C1D962 /* main.m */; };
 		22E704091A82B16E00C1D962 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 22E704081A82B16E00C1D962 /* AppDelegate.m */; };
 		22E7040C1A82B16E00C1D962 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22E7040B1A82B16E00C1D962 /* ViewController.m */; };
@@ -27,6 +28,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		22DE5FD51A83032F00742DF5 /* TestClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestClass.h; sourceTree = "<group>"; };
+		22DE5FD61A83032F00742DF5 /* TestClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestClass.m; sourceTree = "<group>"; };
 		22E704001A82B16E00C1D962 /* GitDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		22E704041A82B16E00C1D962 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		22E704051A82B16E00C1D962 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -89,6 +92,8 @@
 				22E704101A82B16E00C1D962 /* Images.xcassets */,
 				22E704121A82B16E00C1D962 /* LaunchScreen.xib */,
 				22E704031A82B16E00C1D962 /* Supporting Files */,
+				22DE5FD51A83032F00742DF5 /* TestClass.h */,
+				22DE5FD61A83032F00742DF5 /* TestClass.m */,
 			);
 			path = GitDemo;
 			sourceTree = "<group>";
@@ -219,6 +224,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22DE5FD71A83032F00742DF5 /* TestClass.m in Sources */,
 				22E7040C1A82B16E00C1D962 /* ViewController.m in Sources */,
 				22E704091A82B16E00C1D962 /* AppDelegate.m in Sources */,
 				22E704061A82B16E00C1D962 /* main.m in Sources */,
@@ -412,6 +418,7 @@
 				22E704251A82B16F00C1D962 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		22E704261A82B16F00C1D962 /* Build configuration list for PBXNativeTarget "GitDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +427,7 @@
 				22E704281A82B16F00C1D962 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

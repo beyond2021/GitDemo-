@@ -1,16 +1,13 @@
 //
-//  ViewController.h
+//  TestClass.h
 //  GitDemo
 //
 //  Created by KEEVIN MITCHELL on 2/4/15.
 //  Copyright (c) 2015 Beyond 2021. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
-#import "TestClass.h"
+#import <Foundation/Foundation.h>
 
-@interface ViewController : UIViewController
-
+@interface TestClass : NSObject
 
 @end
-
