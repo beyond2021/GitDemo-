@@ -16,6 +16,7 @@
 
 @property (nonatomic, strong) TestClass *testClass;
 
+-(void)sayHello;
 @end
 
 @implementation ViewController
@@ -34,6 +35,10 @@
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+-(void)sayHello{
+    NSLog("Hello");
 }
 
 @end
